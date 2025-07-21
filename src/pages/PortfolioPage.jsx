@@ -27,7 +27,7 @@ const PortfolioPage = () => {
             <li>React, React Hooks</li>
             <li>Spring, Spring boot</li>
             <li>HTML, CSS</li>
-            <li>JavaScript, Jquery</li> 
+            <li>JavaScript, Jquery</li>
             <li>Oracle, MySQL</li>
             <li>OpenLayers</li>
           </ul>
@@ -50,38 +50,38 @@ const PortfolioPage = () => {
       </div>
 
       <div className="portfolio-right">
-         <section>
+        <section>
           <h1>학력</h1>
           <ul>
             <li>경북대학교 컴퓨터공학과 졸업</li>
-          
+
           </ul>
         </section>
         <section>
           <h1>경력</h1>
           <ul>
             <li></li>
-          
+
           </ul>
         </section>
         <section>
           <h1>프로젝트</h1>
           <ul>
-            <li>영화 검색 페이지 (React+YTS API)</li>
-            <li>화장품 검색 페이지 (React+MakeUp API)</li>
-            <li>전국 대기오염 시각화 페이지 (React+대기오염 공공 API+OpenLayer)</li>
+            <li><a href="https://yts-movie-search.netlify.app/" target="_blank" rel="noopener noreferrer">영화 검색 페이지 (React+YTS API)</a></li>
+            <li><a href="https://cosmetic-search-pj.netlify.app/" target="_blank" rel="noopener noreferrer">화장품 검색 페이지 (React+MakeUp API)</a></li>
+            <li><a href="https://react-openlayer-pollution.netlify.app/" target="_blank" rel="noopener noreferrer">전국 대기오염 시각화 페이지 (React+대기오염 공공 API+OpenLayer)</a></li>
           </ul>
         </section>
         <section>
           <h1>미니프로젝트</h1>
           <ul>
-            <li>투두리스트  (React)</li>
-            <li>개 이미지 검색 (React+DogCEO API)</li>
-            <li>영화 목록 페이지 (React+YTS API)</li>
-            <li>날씨검색 페이지 (React+OpenWeather Map API)</li>
-            <li>ECharts 그래프 페이지-실시간,대용량 (React+ECharts)</li>
-            <li>ECharts 그래프 페이지-입력 (React+ECharts)</li>
-            <li>OpenLayer,Ceisum 테스트 페이지 (React+OpenLayer+Ceisium)</li>
+            <li><a href="https://react-todo-practice-hb.netlify.app" target="_blank" rel="noopener noreferrer">투두리스트 (React)</a></li>
+            <li><a href="https://dogceo-search.netlify.app" target="_blank" rel="noopener noreferrer">개 이미지 검색 (React+DogCEO API)</a></li>
+            <li><a href="https://yts-movielist.netlify.app" target="_blank" rel="noopener noreferrer">영화 목록 페이지 (React+YTS API)</a></li>
+            <li><a href="https://openweather-serach.netlify.app" target="_blank" rel="noopener noreferrer">날씨검색 페이지 (React+OpenWeather Map API)</a></li>
+            <li><a href="https://react-echarts-practice.netlify.app" target="_blank" rel="noopener noreferrer">ECharts 그래프 페이지-실시간,대용량 (React+ECharts)</a></li>
+            <li><a href="https://echart-jmeter.netlify.app" target="_blank" rel="noopener noreferrer">ECharts 그래프 페이지-입력 (React+ECharts)</a></li>
+            <li><a href="https://openlayer-ceisium-test.netlify.app" target="_blank" rel="noopener noreferrer">OpenLayer,Ceisum 테스트 페이지 (React+OpenLayer+Cesium)</a></li>
           </ul>
         </section>
       </div>
