@@ -1,0 +1,35 @@
+/* PollutionInfo.css */
+.pollution-info {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.pollution-info span {
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+.pollution-info span:hover{
+    cursor: pointer;
+}
+
+.pollution-info .good {
+  background-color: #4caf50;
+}
+
+.pollution-info .normal {
+  background-color: #2196f3;
+}
+
+.pollution-info .bad {
+  background-color: #ff9800;
+}
+
+.pollution-info .very-bad {
+  background-color: #f44336;
+}

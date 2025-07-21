@@ -1,0 +1,84 @@
+.portfolio-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio-left {
+    flex: 1;
+    max-width: 600px;
+}
+
+.portfolio-left section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.portfolio-left section img{
+    border-radius: 10px;
+}
+
+.skill-set-list {
+  display: flex;
+  gap: 16px;           /* 이미지 간격 */
+  align-items: center; /* 수직 정렬 */
+  flex-wrap: wrap;     /* 줄 바꿈 허용 (필요시) */
+  margin-top: 10px;
+}
+
+.skill-set-list img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.skill-set-list img:hover {
+  transform: scale(1.1); /* 호버 시 확대 효과 */
+}
+
+.portfolio-right {
+    width: 600px;
+    padding: 15px;
+    border-left: 2px solid #0078d7;
+    background-color: #fff;
+}
+
+.portfolio-right section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.portfolio-right section ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+.portfolio-right section ul>li:hover{
+    color:#0078d7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 12px;
+    color: #0078d7;
+}
+
+a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

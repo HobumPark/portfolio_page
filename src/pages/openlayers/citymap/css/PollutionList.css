@@ -1,0 +1,13 @@
+.pollution-list-container {
+  display: flex;
+  flex-wrap: wrap;               /* 줄바꿈 허용 */
+  justify-content: center;       /* 전체 가로 가운데 정렬 */
+  gap: 12px;                    /* 아이템 간 간격 */
+  padding-top: 20px;
+  box-sizing: border-box;       /* 오타 수정: borderBox → border-box */
+}
+
+.pollution-list-item {
+  flex: 0 1 calc(25% - 12px);  /* 4개씩 가로 배치, gap 고려 */
+  box-sizing: border-box;
+}

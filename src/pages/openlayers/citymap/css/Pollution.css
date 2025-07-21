@@ -1,0 +1,50 @@
+.pollution-container {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  width: 300px;           /* 고정 너비 */
+  margin: 0 auto;         /* 좌우 자동 마진으로 가로 가운데 정렬 */
+  text-align: center;     /* 텍스트 가운데 정렬 */
+  background-color: #888;
+  border-radius: 10px;
+  color: white;           /* 배경이 어두우니 글자색도 밝게 */
+  font-family: Arial, sans-serif;
+}
+
+.pollution-container:hover{
+    background-color: #999;
+    cursor: pointer;
+}
+
+.pollution-container strong {
+  font-size: 18px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pollution-values div {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+
+/* 등급별 배경색 */
+.good {
+  background-color: #4caf50; /* 초록 */
+}
+
+.normal {
+  background-color: #ffeb3b; /* 노랑 */
+  color: #000;
+}
+
+.bad {
+  background-color: #ff9800; /* 주황 */
+}
+
+.very-bad {
+  background-color: #f44336; /* 빨강 */
+}
+
+.unknown {
+  background-color: #9e9e9e; /* 회색 */
+}
