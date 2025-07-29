@@ -67,9 +67,13 @@ const PortfolioPage = () => {
         <section>
           <h1>프로젝트</h1>
           <ul>
-            <li><a href="https://yts-movie-search.netlify.app/" target="_blank" rel="noopener noreferrer">영화 검색 페이지 (React+YTS API)</a></li>
+            <li><a href="https://yts-movie-search.netlify.app/" target="_blank" rel="noopener noreferrer">YTS 영화 검색 페이지 (React+YTS API)</a></li>
             <li><a href="https://cosmetic-search-pj.netlify.app/" target="_blank" rel="noopener noreferrer">화장품 검색 페이지 (React+MakeUp API)</a></li>
             <li><a href="https://react-openlayer-pollution.netlify.app/" target="_blank" rel="noopener noreferrer">전국 대기오염 시각화 페이지 (React+대기오염 공공 API+OpenLayer)</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">영화검색 페이지 (React+Express+MySQL)</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">영상 스트리밍 페이지 (React+NestJS+MySQL)</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">영화검색 페이지 (JSP+Spring+MariaDB)</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">영화검색 페이지 (Thymeleaf+Spring boot+MariaDB)</a></li>
           </ul>
         </section>
         <section>
