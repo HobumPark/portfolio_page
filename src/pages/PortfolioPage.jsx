@@ -4,7 +4,7 @@ import profile from '../assets/profile.jpg';
 import spring from '../assets/skill/spring.png';
 import react from '../assets/skill/react.png';
 import htmlcss from '../assets/skill/HTML&CSS.png';
-import javaScript from '../assets/skill/javaScript.png';
+import javaScript from '../assets/skill/javascript.png';
 import typescript from '../assets/skill/typescript.png';
 import oracle from '../assets/skill/oracle.png';
 import mysql from '../assets/skill/mysql.png';
